@@ -85,5 +85,5 @@ if (require.main === module) {
   bundleClient().then(() => {
     const server = setupServer();
     setupWSServer(server);
-  });
+  }); 
 }
